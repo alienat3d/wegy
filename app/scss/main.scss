@@ -1,0 +1,16 @@
+@import 'vendor/normalize.css';
+
+@import 'components/reset'; // сброс стилей
+@import 'components/fonts'; // подключаем шрифты (локально)
+@import 'components/variables'; // переменные
+@import 'components/global'; // общие для всего проекта стили
+
+@import 'sections/header';
+@import 'sections/about';
+@import 'sections/services';
+@import 'sections/workflow';
+@import 'sections/team';
+@import 'sections/footer';
+
+//подключаем БЭМ блоки
+// @import 'blocks/test';

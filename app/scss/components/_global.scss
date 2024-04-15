@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  background-color: $color-main-bg;
+  font-family: $basic-family;
+  font-weight: 300;
+  font-size: $fsize-text;
+  line-height: $lheight-text;
+  color: $color-text;
+}
+.page {
+  height: 100%;
+}
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+// -|* Container *|-
+.container {
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1175px;
+}
+// -|* Visually Hidden *|-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+// -|* Titles *|-
+.title {
+  font-size: 55px;
+  line-height: 1.3;
+}
+
+.title-sm {
+  font-size: 26px;
+  color: $color-accent;
+}

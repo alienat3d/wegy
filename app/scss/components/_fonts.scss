@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("UbuntuLight"), local("Ubuntu-Light"),
+    local("Ubuntu_Light"),
+    url("../fonts/ubuntu-light.woff2") format("woff2"),
+    url("../fonts/ubuntu-light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu Medium"), local("UbuntuMedium"), local("Ubuntu-Medium"),
+    local("Ubuntu_Medium"),
+    url("../fonts/ubuntu-medium.woff2") format("woff2"),
+    url("../fonts/ubuntu-medium.woff") format("woff");
+  font-display: swap;
+}
