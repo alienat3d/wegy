@@ -17,6 +17,17 @@ body {
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
 }
+// -|* Grid *|-
+.row{
+	margin: 0 -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.col{
+	margin-left: 10px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
 // -|* Container *|-
 .container {
 	margin: 0 auto;

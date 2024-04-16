@@ -3,12 +3,10 @@
   box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.1);
 }
 .header__inner {
-  color: $dark-gray;
-  justify-content: space-between;
-}
-.row {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  color: $dark-gray;
 }
 .header__logo {
   position: relative;
@@ -49,8 +47,6 @@
     height: 28px;
     background-color: #a7ddaf;
   }
-}
-.header__nav {
 }
 .nav {
   display: flex;
@@ -95,8 +91,6 @@
     height: 7px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' fill='none'%3E%3Cpath fill='%231D9D73' d='M5.7368 6.5935c-.2893 0-.481-.0977-.6726-.2894L1.0242 2.2643c-.3833-.3834-.3833-.962 0-1.3454.3833-.3833.962-.3833 1.3453 0l3.3672 3.3672L9.104.8211c.3833-.3832.962-.3832 1.3453 0 .3833.3834.3833.9621 0 1.3454L6.4095 6.3041c-.1917.0977-.3833.1954-.6727.2894Z'/%3E%3C/svg%3E");
   }
-}
-.nav__item-link {
 }
 .nav__submenu {
   position: absolute;
