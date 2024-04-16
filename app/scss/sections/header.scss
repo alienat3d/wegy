@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $dark-gray;
+  color: $color-title;
 }
 .header__logo {
   position: relative;
@@ -23,7 +23,7 @@
     text-transform: lowercase;
     font-weight: 500;
     font-size: 37px;
-    color: $dark-gray;
+    color: $color-title;
   }
 
   &::before, &::after {

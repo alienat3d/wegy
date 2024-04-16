@@ -1,0 +1,48 @@
+.about,
+.why-us {
+  border-bottom: 1px solid $color-border-line;
+}
+.about .container,
+.why-us .container {
+  position: relative;
+}
+.about__info,
+.why-us__info {
+  padding: 100px 0;
+  max-width: 554px;
+}
+.about__info {
+  margin-left: auto;
+}
+.why-us__info {
+  margin-right: auto;
+}
+
+.about__title,
+.why-us__title {
+  margin-bottom: 26px;
+}
+.about__title-sm,
+.why-us__title-sm {
+  margin-bottom: 26px;
+}
+
+.about__image-lg,
+.about__image-sm,
+.why-us__image-lg,
+.why-us__image-sm {
+  position: absolute;
+  bottom: -1px;
+}
+.about__image-lg {
+  left: -85px;
+}
+.about__image-sm {
+  left: -278px;
+}
+.why-us__image-lg {
+  right: -101px;
+}
+.why-us__image-sm {
+  right: -294px;
+}

@@ -49,11 +49,17 @@ body {
 }
 // -|* Titles *|-
 .title {
+  font-weight: 300;
   font-size: 55px;
   line-height: 1.3;
+  color: $color-title;
 }
 
 .title-sm {
   font-size: 26px;
   color: $color-accent;
 }
+
+// .text {
+
+// }

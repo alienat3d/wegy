@@ -16,13 +16,55 @@
   <svg>
     <use xlink:href="img/icons/sprite.svg#clouds-fill"></use>
   </svg> -->
-  <!-- подключаем шапку -->
+  <!-- === HEADER === -->
   @@include('blocks/header.html')
+  <!-- === / HEADER === -->
+
   <main>
-    <h1 class="visually-hidden">wegy the Joomla theme</h1>
+    <h1 class="visually-hidden">An example for "wegy" the Joomla theme</h1>
+    <!-- === ABOUT === -->
+    <section class="about">
+      <div class="container">
+        <div class="about__info">
+          <h2 class="about__title title">About</h2>
+          <div class="about__title-sm title-sm">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+            eiusmod.</div>
+          <p class="text">
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+          </p>
+        </div>
+        <img class="about__image-lg" src="img/about-lg-1.jpg" alt="Female developer working at her iMac looking at code">
+        <img class="about__image-sm" src="img/about-sm-1.jpg" alt="Person at work, i.e. hands of person and laptop">
+      </div>
+    </section>
+    <section class="why-us">
+      <div class="container">
+        <div class="why-us__info">
+          <h2 class="why-us__title title">Why choose us</h2>
+          <div class="why-us__title-sm title-sm">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+            eiusmod.</div>
+          <p class="text">
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+          </p>
+        </div>
+        <img class="why-us__image-lg" src="img/about-lg-2.jpg" alt="Developers are sitting in front of each other with laptops working">
+        <img class="why-us__image-sm" src="img/about-sm-2.jpg" alt="A laptop, a pen and a notebook on a table">
+      </div>
+    </section>
+    <!-- === / ABOUT === -->
   </main>
-  <!-- подключаем подвал -->
+  <!-- === FOOTER === -->
   @@include('blocks/footer.html')
+  <!-- === / FOOTER === -->
+
   <!-- подключаем js -->
   <script src="js/main.min.js"></script>
 </body>
