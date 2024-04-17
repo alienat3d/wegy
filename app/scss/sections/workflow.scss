@@ -1,0 +1,37 @@
+.workflow__item {
+  margin-bottom: 80px;
+  width: calc(100% / 2 - 50px);
+  font-size: 0;
+
+  &:hover {
+    .workflow__item-icon {
+      background-color: $color-accent-light;
+    }
+    .workflow__item-title {
+      color: $color-accent-light;
+    }
+  }
+}
+.workflow__item-icon {
+  margin-top: 11px;
+  margin-right: 34px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 130px;
+  height: 130px;
+  transition: background-color $transition-normal;
+  background: $color-accent no-repeat center;
+}
+.workflow__item-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 396px;
+}
+.workflow__item-title {
+  transition: color $transition-normal;
+}
+.workflow__item-text {
+  font-size: 18px;
+}

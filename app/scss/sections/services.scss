@@ -5,9 +5,26 @@
   display: flex;
   flex-direction: column;
   width: calc(100% / 3 - 50px);
+
+  &:hover{
+    .services__item-title{
+      color: $color-accent-light;
+    }
+    .services__item-icon path {
+      fill: $color-accent-light;
+    }
+  }
+}
+.services__item-icon {
+  height: 100px;
+
+  path {
+    transition: fill $transition-normal;
+  }
 }
 .services__item-title {
   margin-bottom: 16px;
+  transition: color $transition-normal;
 }
 .services__item-text {
   margin-bottom: 34px;
