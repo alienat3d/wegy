@@ -1,7 +1,3 @@
-.services {
-  border-bottom: 1px solid $color-border-line;
-  padding: 100px 0;
-}
 .services__inner {
   justify-content: space-between;
 }
@@ -12,10 +8,10 @@
 }
 .services__item-title {
   margin-bottom: 16px;
-  font-weight: 300;
 }
 .services__item-text {
   margin-bottom: 34px;
+  font-size: 14px;
 }
 .services__item-link {
   border: 1px solid transparent;

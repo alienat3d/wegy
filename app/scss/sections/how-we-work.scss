@@ -1,0 +1,30 @@
+.how-we-work .container {
+  padding: 99px 0 77px;
+}
+.how-we-work__info {
+  margin-left: auto;
+  max-width: 536px;
+}
+.how-we-work__title{
+  margin-bottom: 25px;
+}
+.how-we-work__info-box{margin-bottom: 32px;}
+.how-we-work__subtitle {
+  margin-bottom: 13px;
+
+  &::before {
+    content: '';
+    margin-right: 21px;
+    display: inline-block;
+    width: 41px;
+    height: 31px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='32' fill='none'%3E%3Cpath fill='%231D9D73' d='M41.208 3.608 13.094 31.722.208 18.836l3.304-3.303 9.582 9.559L37.904.304l3.304 3.304Z'/%3E%3C/svg%3E");
+  }
+}
+
+.how-we-work__image-lg {
+  left: -68px;
+}
+.how-we-work__image-sm {
+  left: -261px;
+}

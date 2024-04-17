@@ -1,0 +1,20 @@
+.about__info, .why-us__info, .services {
+  padding: 100px 0;
+}
+.about, .why-us, .services, .how-we-work {
+  border-bottom: 1px solid $color-border-line;
+}
+.about .container,
+.why-us .container,
+.how-we-work .container {
+  position: relative;
+}
+.about__image-lg,
+.about__image-sm,
+.why-us__image-lg,
+.why-us__image-sm,
+.how-we-work__image-lg,
+.how-we-work__image-sm {
+  position: absolute;
+  bottom: -1px;
+}

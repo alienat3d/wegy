@@ -4,10 +4,12 @@
 @import 'components/fonts'; // подключаем шрифты (локально)
 @import 'components/variables'; // переменные
 @import 'components/global'; // общие для всего проекта стили
+@import 'components/common'; // общие для некоторых блоков стили
 
 @import 'sections/header';
 @import 'sections/about';
 @import 'sections/services';
+@import 'sections/how-we-work';
 @import 'sections/workflow';
 @import 'sections/team';
 @import 'sections/footer';

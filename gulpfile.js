@@ -5,7 +5,7 @@ const squoosh = require('gulp-squoosh');
 const uglify = require('gulp-uglify-es').default;
 const cleanCSS = require('gulp-clean-css');
 const include = require('gulp-file-include');
-const webpAvifHTML = require('gulp-avif-webp-html');
+// const webpAvifHTML = require('gulp-avif-webp-html');
 const svgstore = require('gulp-svgstore');
 const svgmin = require('gulp-svgmin');
 const rename = require('gulp-rename');
@@ -24,7 +24,7 @@ const buildFolder = 'docs'; //папка куда собирается прое�
 function html() {
   return src(sourceFolder + "/html/**/*.html")
     .pipe(include())
-    .pipe(webpAvifHTML())
+    // .pipe(webpAvifHTML())
     .pipe(gulpHtmlBemValidator())
     .pipe(cachebust({ type: "timestamp" }))
     .pipe(dest(buildFolder))
