@@ -1,0 +1,41 @@
+.team {
+  padding: 83px 0;
+}
+.team .row {
+  margin: 0 -15px;
+}
+.team__title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.team__item {
+  margin-left: 15px;
+	margin-right: 15px;
+  text-align: center;
+  width: calc(100% / 3 - 30px);
+}
+.team__photo {
+  margin-bottom: 20px;
+}
+.team__name {
+  margin-bottom: 1px;
+}
+.team__position{
+  margin-bottom: 25px;
+}
+.team__socials{
+  column-gap: 32px;
+}
+.team__socials-link {
+  &+&{margin-left: 28px;}
+
+  &:hover {
+    svg path {
+      fill: $color-accent;
+    }
+  }
+}
+
+.team__socials-link svg path {
+  transition: $transition-fast;
+}
