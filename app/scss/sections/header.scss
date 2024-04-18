@@ -3,12 +3,13 @@
   box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.1);
 }
 .header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
   color: $color-title;
 }
 .header__logo {
+  margin-right: auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -50,11 +51,10 @@
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 .nav__menu {
   margin-right: 30px;
-  display: flex;
-  column-gap: 29px;
 }
 .nav__menu-item {
   text-transform: capitalize;

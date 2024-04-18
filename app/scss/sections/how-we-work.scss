@@ -8,9 +8,18 @@
 .how-we-work__title{
   margin-bottom: 25px;
 }
-.how-we-work__info-box{margin-bottom: 32px;}
+.how-we-work__info-box{
+  margin-bottom: 32px;
+
+  &:hover{
+    .how-we-work__subtitle {
+      color: $color-accent-light;
+    }
+  }
+}
 .how-we-work__subtitle {
   margin-bottom: 13px;
+  transition: color $transition-normal;
 
   &::before {
     content: '';
