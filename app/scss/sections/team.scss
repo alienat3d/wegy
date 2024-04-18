@@ -1,18 +1,12 @@
 .team {
   padding: 83px 0;
-}
-.team .row {
-  margin: 0 -15px;
+  text-align: center;
 }
 .team__title {
   margin-bottom: 45px;
-  text-align: center;
 }
 .team__item {
-  margin-left: 15px;
-	margin-right: 15px;
-  text-align: center;
-  width: calc(100% / 3 - 30px);
+  width: calc(100% / 3 - $offset*2);
 }
 .team__photo {
   margin-bottom: 20px;

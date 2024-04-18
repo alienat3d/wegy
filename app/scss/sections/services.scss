@@ -4,7 +4,7 @@
 .services__item {
   display: flex;
   flex-direction: column;
-  width: calc(100% / 3 - 50px);
+  width: calc(100% / 3 - $offset*2);
 
   &:hover{
     .services__item-title{

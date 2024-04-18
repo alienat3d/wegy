@@ -1,6 +1,6 @@
 .workflow__item {
   margin-bottom: 80px;
-  width: calc(100% / 2 - 50px);
+  width: calc(100% / 2 - $offset*2);
   font-size: 0;
 
   &:hover {

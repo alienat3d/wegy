@@ -19,19 +19,19 @@ body {
 }
 // -|* Grid *|-
 .row{
-	margin: 0 -25px;
+	margin: 0 -$offset;
 	display: flex;
 	flex-wrap: wrap;
 }
 .col{
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: $offset;
+	margin-right: $offset;
 	box-sizing: border-box;
 }
 // -|* Container *|-
 .container {
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 0 $offset*2;
 	max-width: 1175px;
 }
 // -|* Visually Hidden *|-

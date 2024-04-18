@@ -74,12 +74,13 @@
   padding-right: 20px;
 
   &:hover .nav__submenu {
-    display: block;
+    border-radius: 15px;
     padding: 10px 20px;
     visibility: visible;
     opacity: 1;
     height: auto;
-    width: 150px;
+    width: auto;
+    transition: visibility $transition-fast, opacity $transition-fast;
   }
 
   &::after {
@@ -93,18 +94,21 @@
   }
 }
 .nav__submenu {
+  z-index: 5;
   position: absolute;
   top: 20px;
-  left: -68px;
-  display: none;
+  left: -20px;
   visibility: hidden;
   opacity: 0;
   height: 0;
   width: 0;
-  text-align: center;
+  text-align: left;
+  background-color: #e4f2e2;
+  transition: height $transition-fast, width $transition-fast;
 }
 .nav__submenu-item {
-  padding: 5px;
+  padding: 5px 0;
+  white-space: nowrap; // запрещает перенос слов, чтобы у родителя корректно работало свойство width: auto;
   color: $color-text;
   transition: color $transition-fast;
 
