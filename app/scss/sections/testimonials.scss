@@ -1,0 +1,29 @@
+.testimonials {
+  padding: 77px 0;
+}
+.testimonials__title {
+  margin-bottom: 84px;
+  text-align: center;
+}
+.testimonials__list {
+}
+.testimonials__list-item {
+  width: calc(100% / 3 - $offset*2);
+}
+.testimonials__list-item-photo {
+}
+.testimonials__list-item-text {
+  font-size: 14px;
+  line-height: 23px;
+
+  &::before {
+    content: '“';
+    font-weight: 500;
+    font-size: 94px;
+    color: $color-accent-light;
+  }
+}
+.testimonials__list-item-name {
+}
+.testimonials__list-item-position {
+}
