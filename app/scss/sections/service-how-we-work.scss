@@ -1,0 +1,42 @@
+.service-how-we-work {
+  z-index: -2;
+  position: relative;
+  padding: 79px 0 90px;
+  background: #000 url("../img/bg-service-how-we-work.jpg") no-repeat center top / cover;
+  color: #fff;
+
+  &::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(#000, 0.7);
+  }
+}
+.service-how-we-work__title {
+  margin-bottom: 62px;
+  text-align: center;
+  color: #fff;
+}
+.service-how-we-work__list-item {
+  margin-bottom: 32px;
+  width: calc(100% / 2 - $offset * 2);
+}
+.service-how-we-work__list-item-title {
+  margin-bottom: 16px;
+
+  &::before {
+    content: "";
+    margin-right: 21px;
+    display: inline-block;
+    width: 41px;
+    height: 31px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='32' fill='none'%3E%3Cpath fill='%231D9D73' d='M41.208 3.608 13.094 31.722.208 18.836l3.304-3.303 9.582 9.559L37.904.304l3.304 3.304Z'/%3E%3C/svg%3E");
+  }
+}
+.service-how-we-work__list-item-text {
+  font-size: 14px;
+}
