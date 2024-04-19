@@ -1,0 +1,1 @@
+FIXME: [testimonials] Сделать правильно hover scale анимацию для фоток
